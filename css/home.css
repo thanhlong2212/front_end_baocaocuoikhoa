@@ -243,6 +243,10 @@ i.fa.fa-user.posts__item-cate-ad-icon {
     display: flex;
     float: left;
     margin-right: 15px;
+    font-size: 14px;
+}
+.posts__item-cate-ad-name {
+    font-size: 14px;
 }
 .posts__item-description {
     font-size: 14px;
