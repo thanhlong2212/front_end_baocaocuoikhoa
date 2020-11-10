@@ -272,3 +272,9 @@ img.bestselling__product-im:hover {
     transform: translateY(-1px);
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
 }
+a.product__link:hover{
+    text-decoration: none;
+    color: #bd2130;
+    opacity: 1;
+}
+/*end hover*/
