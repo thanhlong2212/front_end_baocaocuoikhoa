@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Giỏ Hàng</title>
+	<script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+		<!-- menu top -->
+		<div class="row">
+		 	<div class="col-md-7 dtl-header">
+		 		<p class="text"><marquee>Đồ Phượt 365 - Cung cấp đồ phượt chất lượng</marquee></p>
+		 	</div>
+		 	<div class="col-md-5 dtl-header">
+		 		<p class="text-1">Hỏi Đáp</p>
+		 		<p class="text-1">Hướng Dẫn</p>
+		 		<p class="text-1">Đăng ký</p>
+		 		<p class="text-1">Đăng nhập</p>
+		 	</div>	
+		</div>
+		<!-- end menu top -->
+		<!-- menu bottom -->
+		<div class="row">
+			<div class="col-md-3 header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="images/logo.png" alt="Logo" class="header__logo-img">
+                </a>
+            </div>
+            <div class="col-md-6 header__search">
+                <select name="" id="" class="header__search-select">
+                    <option value="0">All</option>
+                    <option value="1">Mũ bảo hiểm</option>
+                    <option value="2">Găng tay</option>
+                    <option value="3">Áo phượt</option>
+                    <option value="4">Giày phượt</option>
+                    <option value="5">Balo phượt</option>
+                </select>
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                <button class="header__search-btn">
+                    <div class="header__search-icon-wrap">
+                        <i class="fas fa-search header__search-icon"></i>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-2 header__call">
+                <div class="header__call-icon-wrap">
+                    <i class="fas fa-phone-alt header__call-icon"></i>  
+                </div>
+                <div class="header__call-info">
+                    <div class="header__call-text">
+                        Gọi điện tư vấn
+                    </div>
+                    <div class="header__call-number">
+                        0352.860.701
+                    </div>
+                </div>
+             </div>
+             <div class="col-md-1 header__cart">
+             	<a href="cart.html">
+             		<span class="header__notice">4</span>
+                    <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+            	</a>
+            </div>
+		</div>
+		<!-- end menu bottom -->
+		<div class="row">
+			<div class="col-md-3 header__nav-menu-wrap">
+				<i class="fas fa-bars header__nav-menu-icon"></i>
+                <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+			</div>
+			<div class="col-md-9 header__nav">
+				<ul class="header__nav-list">
+                	<li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Trang chủ</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Giới thiệu</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Sản phẩm</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="post.html" class="header__nav-link">Bài viết</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Tuyển cộng tác viên</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contact.html" class="header__nav-link">Liên hệ</a>
+                    </li>
+                </ul>
+			</div>
+		</div>
+		<!-- end -->
+		<!-- cart -->
+		<div class="row">
+			<div class="col-md-6 cart-name">
+				<h6>Thông tin sản phẩm</h6>
+			</div>
+			<div class="col-md-3 cart-name">
+				<h6>Số lượng</h6>
+			</div>
+			<div class="col-md-3 cart-name">
+				<h6>Đơn giá</h6>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 cart-body">
+				<img class="cart-img" src="images/product_1.png">
+				<p class="cart-title">Mũ bảo hiểm fullfaceYoyal QC201</p>
+			</div>
+			<div class="col-md-3 cart-body">
+				<input  class="cart__body-quantity-minus" type="button" value="-">
+                <input class="cart__body-quantity-total" type="numbe" value="1">
+                <input class="cart__body-quantity-plus" type="button" value="+">
+			</div>
+			<div class="col-md-3 cart-body">
+				<p class="money">900.000</p>
+				<button type="button" class="btn btn-danger">Xóa</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 cart-body">
+				<img class="cart-img" src="images/product_8.png">
+				<p class="cart-title">Mũ bảo hiểm fullfaceYoyal 2020</p>
+			</div>
+			<div class="col-md-3 cart-body">
+				<input  class="cart__body-quantity-minus" type="button" value="-">
+                <input class="cart__body-quantity-total" type="numbe" value="2">
+                <input class="cart__body-quantity-plus" type="button" value="+">
+			</div>
+			<div class="col-md-3 cart-body">
+				<p class="money">1.490.000</p>
+				<button type="button" class="btn btn-danger">Xóa</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 cart-body">
+				<img class="cart-img" src="images/product_3.png">
+				<p class="cart-title">Mũ bảo hiểm LS2 đẹp chính hãng</p>
+			</div>
+			<div class="col-md-3 cart-body">
+				<input  class="cart__body-quantity-minus" type="button" value="-">
+                <input class="cart__body-quantity-total" type="numbe" value="1">
+                <input class="cart__body-quantity-plus" type="button" value="+">
+			</div>
+			<div class="col-md-3 cart-body">
+				<p class="money">1.200.000</p>
+				<button type="button" class="btn btn-danger">Xóa</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 cart-body">
+				<img class="cart-img" src="images/product_4.png">
+				<p class="cart-title">Mũ bảo hiểm LS2 chất lượng, bền</p>
+			</div>
+			<div class="col-md-3 cart-body">
+				<input  class="cart__body-quantity-minus" type="button" value="-">
+                <input class="cart__body-quantity-total" type="numbe" value="2">
+                <input class="cart__body-quantity-plus" type="button" value="+">
+			</div>
+			<div class="col-md-3 cart-body">
+				<p class="money">2.220.000</p>
+				<button type="button" class="btn btn-danger">Xóa</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 cart__foot">
+				<button type="button" class="btn btn-kx">Cập nhật giỏ hàng</button>
+			</div>
+			<div class="col-md-3 cart__foot">
+				<p class="text-foot">Tổng cộng:</p>
+			</div>
+			<div class="col-md-3 cart__foot">
+				<p class="moneys">18.590.500đ</p>
+				<button type="button" class="btn btn-kx">Xóa</button>
+			</div>
+		</div>
+		<br>
+		<!-- end cart -->
+		<!-- footer -->
+        <div class="row backroud">
+            <div class="col-md-5">
+                <h4 class="footer-heading">
+                    Về chúng tôi
+                </h4>
+                <div class="footer__top-intro-content">
+                    Dophuot365.com là hệ thống chuyên cung cấp những
+                    phụ kiện, thiết bị cần thiết cho các bạn đam mê 
+                    phượt trên khắp cả nước.Chúng tôi sẽ liên tục cập 
+                    nhật những sản phẩm mới nhất, chất lượng nhất, 
+                    hợp thời nhất giúp các bạn có những trải nghiệm 
+                    tuyệt vời! <br> <br>
+                    Điện thoại: 0352 860 701 <br>
+                    Email: dophuot365@gmail.com <br>
+                    Zalo: 0352 860 701 <br>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4 class="footer__top-policy-heading">
+                    Chính sách mua hàng 
+                </h4>
+
+                <ul class="footer__top-policy-list">
+                    <li class="footer__top-policy-item">
+                        <a href="#" class="footer__top-policy-link">Hình thức đặt hàng</a>
+                    </li>
+                    <li class="footer__top-policy-item">
+                        <a href="#" class="footer__top-policy-link">Hình thức thanh toán</a>
+                    </li>
+                    <li class="footer__top-policy-item">
+                        <a href="#" class="footer__top-policy-link">Phương thức vận chuyển</a>
+                    </li>
+                    <li class="footer__top-policy-item">
+                        <a href="#" class="footer__top-policy-link">Chính sách đổi trả</a>
+                    </li>
+                    <li class="footer__top-policy-item">
+                        <a href="#" class="footer__top-policy-link">Hướng dẫ sử dụng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 class="footer-heading">
+                    Hotline liên hệ
+                </h4>
+                <div class="footer__top-contact">
+                    <div class="footer__top-contact-icon">
+                        <img src="images/phone_top.png" class="footer__top-contact-img">
+                    </div>
+
+                    <div class="footer__top-contact-phone-wrap">
+                        <div class="footer__top-contact-phone">
+                            0352.860.701
+                        </div>
+                        <div class="footer__top-contact-des">
+                            (Tư vấn miễn phí 24/24)
+                        </div>
+                    </div>
+                </div>                  
+                <h4 class="footer__top-contact-heading">
+                    Kết nối với chúng tôi
+                </h4>
+                <img class="footer__top-contact-social-link" src="images/facebook.png">
+                <img class="footer__top-contact-social-link" src="images/youtube.png">
+                <img class="footer__top-contact-social-link" src="images/tiktok.png">
+                <img class="footer__top-contact-social-link" src="images/zalo.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 footer__bottom">
+                 <span class="footer__bottom-content">@Bản quyền thuộc về Dophuot365.com | Thiết kế bởi Thành Long</span>
+            </div>
+        </div>
+        <!-- end footer -->
+	</div>
+	<!-- end container -->
+
+</body>
+</html>
