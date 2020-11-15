@@ -39,3 +39,29 @@ button.btn.btn-danger {
     margin: 10px 0;
     font-size: 14px;
 }
+/*responsive*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    iframe {
+    width: 928px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    iframe {
+    width: 690px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    iframe {
+    width: 510px;
+    }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+    iframe {
+    width: 450px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    iframe {
+    width: 295px;
+    }
+}

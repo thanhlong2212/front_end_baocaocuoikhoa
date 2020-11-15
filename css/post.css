@@ -118,4 +118,115 @@ img.posts__item-img:hover {
 img.post__aside-img:hover {
     transform: scale(1.1);
 }
-
+/*responsive*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    img.posts__item-img {
+    display: flex;
+    float: left;
+    width: 195px;
+    margin-right: 20px;
+    height: 195px;
+    }
+    img.post__aside-img {
+    height: 65px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 70px;
+    }
+    .pagination .page-numbers li {
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    border: 1px solid red;
+    line-height: 40px;
+    text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    h6.post__aside-link-heading {
+    font-size: 9px;
+    }
+    .icon-star {
+    font-size: 7px;
+    color: red;
+    }
+    span.post__aside-price-current {
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+    }
+    .pagination .page-numbers li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid red;
+    line-height: 24px;
+    text-align: center;
+    }
+    h4.posts__item-title {
+    font-size: 18px;
+    font-weight: 500;
+    }
+    .posts__item-cate-name {
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    font-size: 12px;
+    }
+    .posts__item-cate-ad-name {
+    font-size: 12px;
+    }
+    i.fa.fa-folder.posts__item-cate-icon {
+    font-size: 12px;
+    color: #888;
+    display: flex;
+    float: left;
+    margin-top: 4px;
+    margin-right: 7px;
+    }
+    i.fa.fa-user.posts__item-cate-ad-icon {
+    font-size: 12px;
+    color: #888;
+    display: flex;
+    float: left;
+    margin-top: 4px;
+    margin-right: 7px;
+    }
+    .posts__item-description {
+    text-align: justify;
+    text-indent: 15px;
+    margin-top: 10px;
+    font-size: 13px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    h5.post__aside-heading {
+    padding-top: 20px;
+    }
+    .pagination {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 125px;
+    }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+    .pagination {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 95px;
+    }
+    h5.post__aside-heading {
+    padding-top: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    h5.post__aside-heading {
+    padding-top: 15px;
+    }
+    .pagination {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    }
+}

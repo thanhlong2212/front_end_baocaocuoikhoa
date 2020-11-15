@@ -220,3 +220,133 @@ img.product__panel-img:hover {
     transform: translateY(-1px);
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
 }
+/*responsive*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    h6.productt__aside-link-heading {
+    font-size: 14px;
+    }
+    h6.product__aside-link-heading {
+    font-size: 14px;
+    }
+    .icon-star {
+    font-size: 10px;
+    color: red;
+    }
+    span.product__aside-price-current {
+    font-size: 13px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    img.product-img-list {
+    width: 60px;
+    border: 1px solid #a9a9a95c;
+    margin-bottom: 5px;
+    }
+    a.product__main-info-contact-fb {
+    font-size: 11px;
+    background: #1e73be;
+    color: #fff;
+    height: 36PX;
+    border-radius: 2px;
+    width: 134PX;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    i.fab.fa-facebook-f {
+    margin-right: 10px;
+    font-size: 12px;
+    }
+    .product__main-info-contact-phone-icon {
+    font-size: 16px;
+    background: #dc3545;
+    color: #fff;
+    height: 36PX;
+    border-radius: 2px;
+    width: 139PX;
+    font-weight: 500;
+    margin-left: 20px;
+    }
+    i.fas.fa-phone-alt {
+    display: flex;
+    float: left;
+    font-size: 11px;
+    padding: 15px;
+    }
+    .product__main-info-contact-phone-title {
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .product__main-info-contact-phone-number {
+    font-size: 11px;
+    }
+    p.product__aside-link-heading {
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+    font-weight: 500;
+    display: grid;
+    }
+    span.text-2 {
+    margin: 0;
+    font-size: 11px;
+    font-weight: normal;
+    }
+    h6.productt__aside-link-heading {
+    font-size: 11px;
+    }
+    h6.product__aside-link-heading {
+    font-size: 11px;
+    }
+    .icon-star {
+    font-size: 7px;
+    color: red;
+    }
+    span.product__aside-price-current {
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    a.product__main-info-contact-fb {
+    font-size: 11px;
+    background: #1e73be;
+    color: #fff;
+    height: 36PX;
+    border-radius: 2px;
+    width: 134PX;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    i.fab.fa-facebook-f {
+    margin-right: 10px;
+    font-size: 12px;
+    }
+    .product__main-info-contact-phone-icon {
+    font-size: 16px;
+    background: #dc3545;
+    color: #fff;
+    height: 36PX;
+    border-radius: 2px;
+    width: 139PX;
+    font-weight: 500;
+    margin-left: 20px;
+    }
+    i.fas.fa-phone-alt {
+    display: flex;
+    float: left;
+    font-size: 11px;
+    padding: 15px;
+    }
+    .product__main-info-contact-phone-title {
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .product__main-info-contact-phone-number {
+    font-size: 11px;
+    }
+}
